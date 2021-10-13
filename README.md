@@ -20,7 +20,9 @@ The signal base for the message is a sinus wave with a frequency of 330 Hz, you 
 The decoder is in the "MorseDecoder.py", you can select between text, audio file or audio recording.
 You can test all options:
 
-*Select "Decode written message" and paste this message: 
+-Select "Decode written message" and paste this message: 
+
     .. - /.-- --- .-. -.- ... /.--. . .-. ..-. . -.-. - .-.. -.--
-*Select "Decode audio file" and type "example" to test with the example.wav file included
-*Select "Decode recording" and play the example.wav with another player.
+    
+-Select "Decode audio file" and type "example" to test with the example.wav file included
+-Select "Decode recording" and play the example.wav with another player.
