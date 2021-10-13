@@ -24,5 +24,5 @@ You can test all options:
 
     .. - /.-- --- .-. -.- ... /.--. . .-. ..-. . -.-. - .-.. -.--
     
--Select "Decode audio file" and type "example" to test with the example.wav file included
+-Select "Decode audio file" and type "example" to test with the example.wav file included\n
 -Select "Decode recording" and play the example.wav with another player.
