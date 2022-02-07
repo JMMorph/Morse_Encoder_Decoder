@@ -12,9 +12,9 @@ so the Encoder and the decoder must follow these rules:
 
 # Encoder
 
-The encoder is in the file "Generator.py", when you execute it, you must introduce the text, and then, you will hace the option to genereate an audio file, save it and play it before. When you specify the name of the file, do not include ".wav" or any format by default the file will be ".wav" format. Yaou can test this code just writting any text to obtain the written morse and select the opcions to save the audio file, then check the decoder.
+The encoder is in the file "Generator.py", when you execute it, you must introduce the text, and then, you will have the option to genereate an audio file, save it and play it before. When you specify the name of the file, do not include ".wav" or any format, by default the file will be ".wav" format. You can test this code just writting any text to obtain the written morse and select the option to save the audio file, then check the decoder.
 
-The signal base for the message is a sinus wave with a frequency of 330 Hz, you can change this in the firstl lines of "complements.py", but if you do this, you will need to uncomment the line: "CM.gen_base()" in order to generate a new database for the Decoder. You can also change the dot duration in the "complements.py" file, and so, the duration of all other elements.
+The signal base for the message is a sinus wave with a frequency of 330 Hz, you can change this in the first lines of "complements.py", but if you do this, you will need to uncomment the line: "CM.gen_base()" in order to generate a new database for the Decoder. You can also change the dot duration in the "complements.py" file, and so, the duration of all other elements.
 
 # Decoder 
 The decoder is in the "MorseDecoder.py", you can select between text, audio file or audio recording.
